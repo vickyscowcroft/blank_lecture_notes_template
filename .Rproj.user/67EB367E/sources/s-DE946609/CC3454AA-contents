@@ -6,10 +6,12 @@ site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib, packages.bib]
-biblio-style: apalike
+csl: apj.csl
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: vickyscowcroft/blank_lecture_notes_template
 description: "Blank template to use to start lecture notes"
 ---
 
-# Index page
+# Index page {-}
+
+Remember the \{-\} on the index page to stop it from numbering it. 
